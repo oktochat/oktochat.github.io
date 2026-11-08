@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OkToChat Privacy Policy</title>
+<meta name="description" content="What information OkToChat handles, where it goes, and what you can do about it.">
+<style>
+:root{--base:#ECECE8;--card:#F7F7F4;--ink:#111110;--muted:#5E5D57;--hair:rgba(17,17,16,.12);--signal:#FFD21F}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--base:#0D0D0C;--card:#161615;--ink:#F1F1EE;--muted:#A09F99;--hair:rgba(241,241,238,.14)}}
+:root[data-theme="dark"]{--base:#0D0D0C;--card:#161615;--ink:#F1F1EE;--muted:#A09F99;--hair:rgba(241,241,238,.14)}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--base);color:var(--ink);font:16px/1.6 Geist,system-ui,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:28px 16px 64px}
+header{display:flex;align-items:center;gap:12px;margin-bottom:28px}
+.logo{width:44px;height:44px;border-radius:12px;background:var(--signal);color:#111110;display:grid;place-items:center;font:700 16px 'Geist Mono',monospace;letter-spacing:-.04em;box-shadow:inset 0 -3px 0 rgba(0,0,0,.12)}
+header span{font-weight:800;font-size:18px;letter-spacing:-.02em}
+h1{font-size:clamp(32px,8vw,46px);line-height:1.05;letter-spacing:-.045em;margin:0 0 10px;font-weight:800}
+.date{font:500 13px 'Geist Mono',monospace;color:var(--muted);margin:0 0 20px}
+.card{background:var(--card);border:1px solid var(--hair);border-radius:16px;padding:8px 22px 18px}
+h2{font-size:20px;letter-spacing:-.02em;margin:26px 0 6px}
+p,li{color:var(--ink)}
+p{margin:0 0 12px}
+ul{padding-left:20px;margin:0 0 12px} li{margin-bottom:6px}
+strong{font-weight:600}
+a{color:inherit;text-decoration-color:var(--signal);text-decoration-thickness:2px;text-underline-offset:3px}
+.contact{display:inline-block;background:var(--card);border:1px solid var(--hair);border-radius:10px;padding:8px 12px;font-size:15px}
+footer{margin-top:28px;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div class="logo">OK</div><span>OkToChat</span></header>
+<h1>Privacy policy</h1>
+<p class="date">Last updated: 30 October 2026</p>
+<p>OkToChat is a social and creative app for Android: chat, posts, music, drawing and everyday tools. This page explains what information the app handles, where it goes, and what you can do about it.</p>
+<p class="contact">Contact: <a href="mailto:oktosupport@virgilio.it">oktosupport@virgilio.it</a></p>
+
+<div class="card">
+<h2>What we collect</h2>
+<p><strong>Your account.</strong> When you sign up with an email and password, Google Firebase Authentication stores your email address and a protected version of your password. We never see your password. When you sign in with Google, Google shares your name, email address and profile picture with Firebase Authentication. OkToChat only uses your email address to identify your account.</p>
+<p><strong>Your profile.</strong> Your display name, username, short bio, pronouns, status, profile picture, banner and colors. Everyone signed in to OkToChat can see your profile.</p>
+<p><strong>What you share.</strong> Posts, photos, videos, drawings, beats, song clips, comments, likes, follows and global chat messages. Everyone signed in to OkToChat can see them.</p>
+<p><strong>Private messages.</strong> Private messages, including photos, voice messages, replies, reactions, songs and beats you send in them, are encrypted on your phone before they are sent, so our database stores only scrambled text, the two people in the conversation and the time. The keys that unlock your messages are stored in your private area of our database, where only your account can read them. This lets you read your chats again after you change phones. We do not open your keys or read your private messages. The people in a private chat or group can see when you are typing and when you have seen their messages.</p>
+<p><strong>Calls.</strong> Voice and video calls go directly between the two phones and are encrypted between them. They are not recorded and do not pass through our database. Our database only stores who is calling whom, when, and the technical details the two phones need to connect, and these are deleted when the call ends. To help the phones find each other, they contact a Google STUN server, which sees their internet addresses.</p>
+<p><strong>Reports, blocks and read markers.</strong> If you report a post or message, we store the report together with your account so the app owner can review it. Your list of blocked people and which chats you have read are stored in your private area and only your account can see them.</p>
+<h2>What stays on your phone</h2>
+<p>Your notes, tasks, drawings (until you post one) and music library stay on your phone and are not sent to us.</p>
+<p>The app uses your camera and microphone only while you are recording a video or a voice message, or are in a call. Nothing is recorded in the background.</p>
+<p>OkAI and the Ask assistant answer through the OkToChat server, which runs the Gemma AI model on Cloudflare Workers AI. When you ask the assistant something or tag @ok, your question and, for @ok, the recent messages in that chat or under that post are sent to the server to write the answer, together with the photos in that post or up to the two latest photos in that chat, so OkAI can see them. They are used only to write that answer and are not stored by us. To make answers more accurate, the server may look up the question on Wikipedia first. Wikipedia receives only the words of the question from our server, not who asked. In OkToBrowse, what you type in the search box is sent from your phone straight to Wikipedia to show suggestions and a quick answer, like any search site; full web results open on the search site you pick. When you tap Translate on a message, comment or post, that text is sent to the same server to be translated into English, only for you, and is not stored by us. In private chats, this sends that one message to the server unencrypted, so only translate it if you are fine with that. OkAI posts the answer in the chat or under the post, marked as OkAI. In private chats and groups the answer is encrypted on your phone like your other messages, but the messages and photos OkAI read to answer were sent to the server to do so, so only tag @ok in a private chat if everyone there is fine with that. The same model checks global chat messages and posts for hate, threats, scams and spam before they are sent. If the server is busy or has reached its daily limit, the app can use a smaller AI model on your phone instead, if you downloaded it (from Hugging Face); that one works entirely on your phone. Photos, drawings and videos are checked on your phone by a small image filter before they are posted or sent, and a built-in word list blocks hate speech, threats and other harmful messages.</p>
+<h2>Other services the app connects to</h2>
+<ul>
+<li><strong>Google Firebase</strong> (Google LLC) runs accounts and stores app data. App data is stored in a data center in London, United Kingdom. Account sign-in may be processed in other countries where Google operates.</li>
+<li><strong>Google Firebase Cloud Messaging</strong> delivers notifications to your phone. <strong>Cloudflare</strong> runs the small OkToChat server that sends them. The server only sends who did something and what kind of thing it was (for example "Bea sent you a message"), never the text of private messages, which it cannot read. Public comments and mentions may show a short preview. Your phone's notification address is stored in your private area of our database.</li>
+<li><strong>Cloudflare Workers AI</strong> runs the AI model that writes OkAI and assistant answers, on the OkToChat server.</li>
+<li><strong>Hugging Face</strong> serves the optional on-phone model file when you choose to download it.</li>
+<li><strong>Audius</strong> serves music when you use Discover in the Music section.</li>
+<li><strong>KLIPY</strong> serves GIFs. When you search for a GIF, your search words are sent to KLIPY. Messages only store the GIF's web address.</li>
+<li><strong>Websites you open</strong> in the built-in browser receive your request like with any browser.</li>
+</ul>
+<h2>What we do not do</h2>
+<p>We do not sell your data. We do not show ads. We do not use analytics or tracking tools. We do not use your posts or messages to train AI.</p>
+<h2>How long we keep it</h2>
+<p>We keep your account and what you share until you delete it. When you delete your account, your profile, username, encryption keys, follows, private data and login are deleted right away. Global chat messages are deleted automatically after 3 days. Posts and comments you sent stay up unless you delete them first, so delete those before deleting your account if you want them gone.</p>
+<h2>Your rights</h2>
+<p>You can see and change your profile at any time in the app. You can delete individual posts, comments and messages, and you can delete your whole account under <strong>More &gt; Account &gt; Delete my account</strong>.</p>
+<p>If you live in the European Union or the United Kingdom, you also have the right to ask for a copy of your data, to correct it, to have it deleted, and to object to how it is used. Write to the contact address above. You can also complain to your data protection authority. In Italy that is the Garante per la protezione dei dati personali (<a href="https://www.garanteprivacy.it">garanteprivacy.it</a>).</p>
+<h2>Moderation</h2>
+<p>The app owner can remove posts, comments and chat messages that break the rules. Content that three people report is hidden until it is reviewed.</p>
+<h2>Children</h2>
+<p>OkToChat is not meant for anyone under 16. If you believe someone under 16 has created an account, write to the contact address and we will delete it.</p>
+<h2>Copyright</h2>
+<p>If you see something on OkToChat that belongs to you and was posted without your permission, write to the contact address with a link or a description. We will look at it quickly and remove it if it infringes your rights.</p>
+<h2>Changes</h2>
+<p>If this policy changes, we will update the date at the top and tell you in the app when the change is important.</p>
+</div>
+<footer>OkToChat</footer>
+</div>
+</body>
+</html>
